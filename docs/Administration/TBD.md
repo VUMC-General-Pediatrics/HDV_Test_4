@@ -1,1 +1,1 @@
-<a href="https://vumc-general-pediatrics.github.io/_PDFs/TestPDF.pdf">mypdf</a>
+<a href="https://vumc-general-pediatrics.github.io/docs/_PDFs/TestPDF.pdf">mypdf</a>
