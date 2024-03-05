@@ -1,0 +1,71 @@
+site_name: Handy Dandy Vandy
+
+copyright:
+  Copyright &copy; 2024 Vanderbilt University Medical Center <br>
+  Vanderbilt Health recognizes that diversity is essential for excellence and innovation. <br>
+  We are committed to an inclusive environment where everyone has the chance to thrive and to the principles of equal opportunity and affirmative action. <br>
+  EOE/AA/Women/Minority/Vets/Disabled <br>
+
+plugins:
+  - search
+
+theme:
+  name: material
+  features:
+    - search.suggest
+    - search.highlight
+    - search.share
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.path
+    - toc.follow
+    - navigation.top
+  palette: 
+
+    # Palette toggle for light mode
+    - scheme: default
+      primary: light blue
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to Dark Mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: light blue
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to Light Mode
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - tables
+  - toc:
+      title: On This Page
+
+extra:
+  analytics: 
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/thumb-up-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/thumb-down-outline
+          name: This page could be improved
+          data: 0
+          note: >- 
+            Thanks for your feedback! Help us improve this page by
+            using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
